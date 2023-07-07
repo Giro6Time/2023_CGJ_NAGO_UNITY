@@ -31,9 +31,9 @@ namespace Doozy.Editor.UIManager.Layouts.Settings
         private SerializedProperty propertyMultiplayerMode { get; set; }
         private SerializedProperty propertyBackButtonCooldown { get; set; }
 
-        private IntegerField defaultPlayerIndexIntegerField { get; set; }
+        private UnityEngine.UIElements.IntegerField defaultPlayerIndexIntegerField { get; set; }
         private FluidToggleSwitch multiplayerModeSwitch { get; set; }
-        private FloatField backButtonCooldownFloatField { get; set; }
+        private UnityEngine.UIElements.FloatField backButtonCooldownFloatField { get; set; }
 
         private static IEnumerable<Texture2D> resetTextures => EditorSpriteSheets.EditorUI.Icons.Reset;
         private FluidButton resetPlayerIndexButton { get; set; }
